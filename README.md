@@ -3,6 +3,11 @@
 SUMMER 2026:
 A small Python tool that checks a host (Metasploitable) for a few common open ports, then prints a defensive security checklist with a short explanation of each risk from a local Llama 3 model running through [Ollama](https://ollama.com).
 
+## Demo Videos
+
+Demo 1: https://youtu.be/p86jia4AXXg
+Demo 2: https://youtu.be/eBMWJvsaxSU
+
 ## How it works
 
 1. Scans a short list of TCP ports (21, 22, 80) with a simple connect check and a 1-second timeout.
